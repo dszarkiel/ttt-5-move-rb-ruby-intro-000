@@ -7,6 +7,6 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-  "user_input".to_i
+  0 < "user_input".to_i < 10
   puts ("user_input".to_i - 1)
 end
